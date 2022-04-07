@@ -32,7 +32,7 @@ int stcp = 4;// 74595의 SHSP핀을 Arduino의 4번핀에 연결
 void setup()
 {
   // 2~9번핀을 출력으로 초기화 시킨다.
-  for(int i = 2; i <= 15; ++i){
+  for(int i = 2; i <= 9; ++i){
     pinMode(i,OUTPUT);
   };
   digitalWrite(9,LOW);	// 점은 표시하지 않는다
